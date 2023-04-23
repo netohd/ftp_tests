@@ -10,7 +10,7 @@ var client = new FTPClient({
 
 console.log(client)
 
-client.download('/path', (error, content) => {
+client.download('/', (error, content) => {
     if (error) {
         console.log(error)
     } else {
