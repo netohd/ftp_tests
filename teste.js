@@ -8,8 +8,7 @@ var client = new FTPClient({
     debug: true
 });
 
-console.log(client)
-
+// Faz o download através do path informado e converte em string
 client.download('/', (error, content) => {
     if (error) {
         console.log(error)
