@@ -1,5 +1,6 @@
 var FTPClient = require('./ftpclient');
 
+// Informações da conexão
 var client = new FTPClient({
     host: 'localhost',
     user: 'username',
