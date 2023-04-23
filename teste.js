@@ -1,10 +1,10 @@
 var FTPClient = require('./ftpclient');
 
 var client = new FTPClient({
-    host: '',
-    user: '',
-    pass: '',
-    client: '',
+    host: 'localhost',
+    user: 'username',
+    pass: 'mypass',
+    client: 'mylocaladress',
     debug: true
 });
 
